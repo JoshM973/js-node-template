@@ -42,3 +42,13 @@ function formatFullName(firstName, lastName) {
 	return `${firstName} ${lastName}`;
 }
 console.log(formatFullName("John", "Doe"));
+
+const character = {
+	name: "Hero",
+	weapon: "Sword",
+	level: 1,
+};
+function createCharacterDescription(character) {
+	return `Level ${character.level} ${character.name} is wielding a ${character.weapon}.`;
+}
+console.log(createCharacterDescription(character));
