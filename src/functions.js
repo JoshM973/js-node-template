@@ -33,3 +33,12 @@ function calculateTotal2(cart) {
 	return cart.price + cart.price * cart.tax;
 }
 console.log(calculateTotal2(cart));
+
+const nameinfo = {
+	firstName: "John",
+	lastName: "Doe",
+};
+function formatFullName(firstName, lastName) {
+	return `${firstName} ${lastName}`;
+}
+console.log(formatFullName("John", "Doe"));
