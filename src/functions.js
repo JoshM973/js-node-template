@@ -24,3 +24,12 @@ function combineStrings(str1, str2) {
 	return `${str1} ${str2}`;
 }
 console.log(combineStrings("Hello", "World"));
+
+const cart = {
+	price: 100,
+	tax: 0.07,
+};
+function calculateTotal2(cart) {
+	return cart.price + cart.price * cart.tax;
+}
+console.log(calculateTotal2(cart));
